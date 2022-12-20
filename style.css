@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  height: auto;
+}
+header {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  align-items: flex-end;
+}
+.topSection h1 {
+  font-size: 4.3rem;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+.topSection h4 {
+  font-size: 3rem;
+  text-align: end;
+}
+.content {
+  width: 90rem;
+  background-color: #e5e5fd;
+  margin: 0rem auto;
+  border: 0.7rem solid #1d1e4c;
+  padding: 1.5rem;
+  overflow: auto;
+}
+.img-container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.img-container,
+img {
+  height: 32rem;
+  width: 30rem;
+}
+
+.aboutSection {
+  margin-top: 5rem;
+}
+.aboutSection h2 {
+  font-size: 7rem;
+}
+.aboutSection p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: justify;
+}
+
+.biographiesSection h3 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.biographiesSection ul {
+  margin: 3rem 0rem;
+  font-size: 2rem;
+  padding-left: 3rem;
+}
+.biographiesSection li {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.7rem;
+  padding: 5rem;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+@media (max-width: 998px) {
+  .topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 998px) {
+  h4 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+}
